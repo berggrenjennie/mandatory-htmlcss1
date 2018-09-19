@@ -1,0 +1,39 @@
+header {
+  background-image: url("ranunkler.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  max-width: none ;
+  padding: 20px;
+  margin;
+}
+
+.header h1 {
+  color: #cd5478;
+  font-family: Verdana;
+  margin-left: 10px;
+
+
+
+
+}
+main {
+  background: linear-gradient(to left, #7fb658 0%, #fcc5b9 100%);
+  max-width: none;
+  height: 2000px;
+  padding: 20px;
+
+}
+
+footer {
+  background-color: #fcc5b9;
+  height: 100px;
+  max-width: ;
+  padding: 20px;
+}
+
+
+.textruta {
+  max-width: 1000px;
+  margin-left: 91px;
+}
