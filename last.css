@@ -1,0 +1,180 @@
+.wrapper, header, footer {
+
+}
+
+
+.wrapper {
+  width: auto;
+  min-height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  background-image: url("ranunkler.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+h1 {font-size: 25px;
+  font-family: Tahoma;
+  color: #cd5478;
+  float: right;
+  margin-right: 20px;
+
+
+}
+
+nav { background-color: Bisque;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;
+
+}
+li {
+  list-style: none;
+  margin: 5px;
+}
+a:link {
+  color: #cd5478 ;
+  background-color: Bisque;
+  font-family: Verdana;
+  font-size: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a:visited {
+  color:#7fb658 ;
+  background-color: Bisque;
+  font-family: Verdana;
+  font-size: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+
+}
+a:hover {
+  color: #cd5478;
+  background-color: Bisque;
+  text-decoration: underline;
+}
+a:active {
+  color: purple;
+  background-color: #7fb658 ;
+  text-decoration: underline;
+}
+
+li.active a {
+  color: purple;
+}
+
+main {
+  min-height: 500px;
+  width: 100% ;
+  background-image: linear-gradient( Bisque, #7fb658);
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 320px;
+  width: 250px;
+  float: right;
+  padding-left: 2px;
+}
+
+.länkar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+legend, label, option, select, fieldset {
+  color: #cd5478;
+  font-family: Verdana;
+  font-size: 15px;
+  border-color:#7fb658;
+}
+
+
+footer {background-color: #7fb658;
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+h2 {
+  font-family: Tahoma;
+  color: #cd5478;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  height: 200px;
+  max-width: none;
+  min-width: 400px;
+  border-collapse: collapse;
+
+
+}
+table, th, td {
+    border: 5px dotted #fcc5b9;
+    font-family:  Verdana; color: #cd5478;
+
+  }
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+div + .mail {
+  height: 50px;
+  width: 80px;
+  border: 1px;
+  border-radius: 35%;
+  background-color: Bisque
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: Bisque;
+  text-shadow: 2px 2px 4px #cd5478;
+}
+p {
+  color: #cd5478;
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+p +.Jennie
+{  text-align: left;
+}
+.footer {
+  background-color: transparent;
+display: flex;
+justify-content: center;
+}
+a.footer {
+  background-color:#7fb658;
+}
